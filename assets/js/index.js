@@ -24,7 +24,7 @@ const renderAvatar=function(user){
         $('.layui-nav-img').attr('src',user.user_pic)
         $('.text-avatar').hide()
     } else {
-        //设置恩文本头像
+        //设置文本头像
         $('.layui-nav-img').hide()
         $('.text-avatar').html(uname[0].toUpperCase())
     }
